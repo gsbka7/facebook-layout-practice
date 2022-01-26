@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #666666;
+    margin:0;
+}
+
+#warp{
+    width:1280px;
+    height:500px;
+    margin:0 auto;
+    
+}
+
+#top{
+    position: relative;
+    width:1280px;
+    height:60px;
+    background-color: #395591;
+}
+
+#middle{
+    position: relative;
+    width:1280px;
+    height:376px;
+    background-color: #333333;
+
+}
+
+#bottom{
+    width:1280px;
+    height:64px;
+    background-color: #ffffff;
+}
+
+#logo{
+    left:12px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top:50%;
+    transform: translate(0%,-50%);
+
+}
+
+#searcher-bar{
+    width:414px;
+    height: 47px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 0 11px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+    left: 64px;
+
+}
+
+input::-webkit-input-placeholder{
+    font-size: 14px;
+}
+
+input{
+    outline: none;
+}
+
+#Avatar{
+    position:absolute;
+    left:19px;
+    bottom:-42px;
+    width:212px;
+    height:212px;
+    background-color: #aaaaaa;
+    border: solid 1px #eeeeee;
+
+}
+
+#data{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#data-A, #data-B{
+    float: left;
+    padding: 7px 10px;
+    background-color: white;
+    font-size: 13px;
+}
+
+#data-A{
+    margin-right: 19px;
+}
+
+#btns{
+    position: relative;
+    left: 255px;
+
+}
+
+#btn{
+    padding: 20px 27px;
+    float: left;
+    border-right: solid 1px #cccccc;
+    color: #335491;
+}
